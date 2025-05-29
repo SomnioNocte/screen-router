@@ -58,17 +58,19 @@ setContent {
 Add JitPack repository in your settings.gradle.kts:
 
 ```kotlin
-	dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-            maven { url = uri("https://jitpack.io") }
-		}
-	}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+}
 ```
 
 Add the dependency:
 
 ```kotlin
-implementation("com.github.SomnioNocte:screen-router:0.8.0")
+dependencies {
+    implementation("com.github.SomnioNocte:screen-router:0.8.0")
+}
 ```
