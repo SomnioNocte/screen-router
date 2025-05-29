@@ -74,3 +74,7 @@ dependencies {
     implementation("com.github.SomnioNocte:screen-router:0.8.0")
 }
 ```
+
+### TODO
+
+Maybe I should make the API more extensive since there are no customizations at the moment.
