@@ -71,7 +71,7 @@ Add the dependency:
 
 ```kotlin
 dependencies {
-    implementation("com.github.SomnioNocte:screen-router:0.8.0")
+    implementation("com.github.SomnioNocte:screen-router:0.8.1")
 }
 ```
 
